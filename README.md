@@ -66,7 +66,9 @@ go get github.com/jinzhu/gorm
 
 
 # golang-migrations
-
+未実装(11/22)
+migratioin.sql does not work properly as docker-compose.yml 
+golang-migrations will migrate initial datas instead....
 ```
 docker exec -it todo_api ash
 
