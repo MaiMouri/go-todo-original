@@ -1,3 +1,7 @@
+サンプル
+
+https://user-images.githubusercontent.com/118511327/203225837-4b15edfe-4c98-4204-9212-523d82522dd2.mov
+
 # go_docker_sample
 
 ## Start with...
@@ -87,3 +91,13 @@ VALUES ('Shopping', '0', NULL, '2020-01-01 10:10:10', '2020-01-01 10:10:00'),
        ('Laundry', '1', '2020-01-01 10:10:10', '2020-01-01 10:10:10', '2020-01-01 10:10:00');
        ('Laundry', '0', NULL, '2020-01-01 10:10:10', '2020-01-01 10:10:00');
 ```
+
+# CRUD
+
+## Edit
+https://user-images.githubusercontent.com/118511327/203226260-6442fcdf-eb32-4e8d-a00e-1acd6a9a6bed.mov
+
+## Delete
+https://user-images.githubusercontent.com/118511327/203226277-dad79fe1-6295-4faf-a2d4-3c46e5b50853.mov
+
+
