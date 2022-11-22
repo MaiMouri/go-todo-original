@@ -47,10 +47,12 @@ touch migration.sql
 
 
 ## docker へのインストール
+
 ```
 docker-compose exec go ash
 ```
-``
+
+```
 go get github.com/gin-gonic/gin
 ```
 
@@ -58,10 +60,11 @@ go get github.com/gin-gonic/gin
 go get github.com/jinzhu/gorm
 ```
 
+
 # golang-migrations
+
 ```
 docker exec -it todo_api ash
-
 
 migrate create -ext sql -dir db/migrations -seq create_todos
 
