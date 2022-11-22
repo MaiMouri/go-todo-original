@@ -66,8 +66,9 @@ docker exec -it todo_api ash
 migrate create -ext sql -dir db/migrations -seq create_todos
 
 migrate -path db/migrations -database="mysql://tester:secret@tcp(db:3306)/test" up 1
+```
 
-
+```
 CREATE TABLE `todos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `text` TEXT NOT NULL,
